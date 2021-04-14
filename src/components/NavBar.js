@@ -6,6 +6,7 @@ import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
+import CartWidget from './CartWidget'
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -33,6 +34,7 @@ export default function ButtonAppBar() {
             Todo Repuestos
           </Typography>
           <Button color="inherit">Inicio</Button>
+          <CartWidget />
         </Toolbar>
       </AppBar>
     </div>
