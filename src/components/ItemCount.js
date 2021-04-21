@@ -4,24 +4,20 @@ class ItemCount extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      count: 0,
+      count: 0, 
+      stock: 10,     
     };
-
+    
     this.increment = this.increment.bind(this);
     this.decrement = this.decrement.bind(this);
   }
 
   increment() {
-    if (this.state.count >= 10) {
-      this.setState({
-        count: 10,
-      });
-    } else {
+    if (this.state.count >= this.state.stock) return; 
       this.setState({
         count: this.state.count + 1,
       });
     }
-  }
 
   decrement() {
     if (this.state.count <= 0) {
