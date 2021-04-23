@@ -1,0 +1,26 @@
+[
+    { 
+        "id": "0", 
+        "Categoria": "Repuestos",
+        "Tipo": "Mecanizado",
+        "Precio": 350,
+        "Descripción": "Engranaje",
+        "Img": "../img/engranaje.jpg"
+    },
+    {
+        "id": "1",
+        "Categoria": "Repuestos",
+        "Tipo": "Reten",
+        "Precio": 100,
+        "Descripción": "Sello de goma",
+        "Img": "../img//60011961 SEAL,OIL-CRANKCASE MD343563.jpg"
+    },
+    { 
+        "id": "2",
+        "Categoria": "Repuestos",
+        "Tipo": "Mecanizado",
+        "Precio": 500,
+        "Descripción": "Bomba de agua",
+        "Img": "../img/60014172 WATER PUMP KIT MD972457 (HELMAR) (S).jpg"
+    }
+]
